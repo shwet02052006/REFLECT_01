@@ -79,7 +79,7 @@ export default function QuickAddForm() {
       <form onSubmit={handleAdd} className="flex flex-col space-y-4">
         <input 
           type="text"
-          placeholder="What did you achieve?"
+          placeholder="What action did you take today towards your goal?"
           value={title}
           onChange={(e) => setTitle(e.target.value)}
           required
