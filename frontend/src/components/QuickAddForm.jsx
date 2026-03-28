@@ -83,7 +83,7 @@ export default function QuickAddForm() {
           value={title}
           onChange={(e) => setTitle(e.target.value)}
           required
-          className="bg-transparent border-none focus:ring-0 p-0 text-[1.5rem] font-medium tracking-tight text-on-surface placeholder:text-outline-variant outline-none" 
+          className="w-full bg-transparent border-none focus:ring-0 p-0 text-[1.125rem] sm:text-[1.5rem] font-medium tracking-tight text-on-surface placeholder:text-outline-variant outline-none" 
         />
         
         <div className="flex items-center justify-between border-t border-outline-variant/20 pt-4 flex-wrap gap-4">
