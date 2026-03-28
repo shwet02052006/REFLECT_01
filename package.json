@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A minimal, manual-entry focused reflection and productivity tracking application.",
   "scripts": {
-    "start": "cd backend && npm start",
+    "start": "node server.js",
     "dev": "npm run install-all && concurrently \"npm run server\" \"npm run client\"",
     "server": "cd backend && npm run dev",
     "client": "cd frontend && npm run dev",
